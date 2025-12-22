@@ -1,0 +1,17 @@
+#!name= CamScanner Pro
+#!desc= Quocchien
+# Shadowrocket: 2025-12-21 18:48:00
+# Bản Quyền Thuộc Về Quốc Chiến ❤️‍🩹
+# Tham Gia Nhóm Telegram: https://t.me/shadowrocketunlockproapps
+
+[rewrite_local]
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://github.com/quocchienn/crackv2/raw/refs/heads/main/CamScanner.js
+
+[Script]
+http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://github.com/quocchienn/crackv2/raw/refs/heads/main/CamScanner.js
+
+[REWRITE]
+https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url simple-response SFRUUC8xLjEgMjAwIE9LCgp7CiAiZGF0YSI6IHsKICAicHNubF92aXBfcHJvcGVydHkiOiB7CiAgICJleHBpcnkiOiAiMTY0MzczMTIwMCIKICB9CiB9Cn0=
+
+[Mitm]
+hostname =%APPEND% ap*.intsig.net
